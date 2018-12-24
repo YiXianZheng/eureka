@@ -16,3 +16,8 @@
 * Maven
 * MySQL 5.6+
 * Navicat for MySQL
+
+## 项目规范
+* 控制器不处理业务逻辑，只返回最终结果，使用ApiResponse模板
+* 服务层处理业务逻辑，使用ReturnVo模板
+* 其余自由发挥
